@@ -1,0 +1,94 @@
+/* region: Общее */
+.ithive-prof-pclpe {
+    padding: 25px;
+}
+.ithive-prof-pclpe-invalid {
+    border: 1px solid red !important;
+}
+.ithive-prof-pclpe-row {
+    flex-wrap: wrap;
+    display: flex;
+}
+.ithive-prof-pclpe-main-title {
+    font-weight: 300;
+    color: #535C69;
+    font-size: 26px;
+    margin: 0 0 25px 0;
+}
+.ithive-prof-pclpe-main-content {
+    background: #ffffff;
+    width: 100%;
+    height: fit-content;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.ithive-prof-pclpe-sub-content {
+    background: #F5F7F9;
+    width: 100%;
+    height: fit-content;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.ithive-prof-pclpe-standard-button {
+    border-radius: 4px;
+}
+/* endregion */
+/* region: Формы ввода */
+.ithive-prof-pclpe-input-label {
+    font-size: 14px;
+    color: #A5ADB3;
+}
+.ithive-prof-pclpe-input-box {
+    padding: 15px 0 15px 0;
+}
+.ithive-prof-pclpe-input-field {
+    margin-top: 5px;
+    width: 100%;
+}
+/* endregion */
+/* region: Радио кнопки */
+.hide { display: none; }
+.ithive-prof-pclpe-input-checkbox-text {
+    color: #535C69;
+    font-size: 14px;
+	margin-left: 16px;
+}
+input[type="radio"] + .fa,
+input[type="radio"] + label > .fa {
+	cursor: pointer;
+	margin-top: 10px;
+}
+/* Unchecked */
+input[type="radio"] + .fa-check-circle:before,
+input[type="radio"] + label > .fa-check-circle:before {
+	content: "\f111";
+	color: #ffffff;
+	font-size: 24px;
+} /* .fa-circle */
+input[type="radio"] + .fa-dot-circle-o:before,
+input[type="radio"] + label > .fa-dot-circle-o:before,
+input[type="radio"] + .fa-check-circle-o:before,
+input[type="radio"] + label > .fa-check-circle-o:before { content: "\f10c"; } /* .fa-circle-o */
+input[type="radio"] + .fa-circle:before,
+input[type="radio"] + label > .fa-circle:before { content: "\f1db";} /* .fa-circle-thin */
+/* Checked */
+input[type="radio"]:checked + .fa-check-circle:before,
+input[type="radio"]:checked + label > .fa-check-circle:before { content: "\f058"; color: #cd4c0b}
+input[type="radio"]:checked + .fa-check-circle-o:before,
+input[type="radio"]:checked + label > .fa-check-circle-o:before { content: "\f05d"; }
+input[type="radio"]:checked + .fa-circle:before,
+input[type="radio"]:checked + label > .fa-circle:before { content: "\f111"; }
+input[type="radio"]:checked + .fa-dot-circle-o:before,
+input[type="radio"]:checked + label > .fa-dot-circle-o:before { content: "\f192"; }
+/* endregion */
+/* region: Меню */
+.ithive-prof-pclpe-sub-menu {
+	padding-top: 16px;
+	padding-left: 10px;
+	position: fixed;
+	background: #ffffff;
+	width: 100%;
+	height: 60px;
+	bottom: 0;
+}
+/* endregion */

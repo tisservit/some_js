@@ -1,0 +1,228 @@
+/* region: Общее */
+.ithive-prof-pclce {
+    padding: 25px;
+}
+.ithive-prof-pclce-row {
+    flex-wrap: wrap;
+    display: flex;
+}
+.ithive-prof-pclce-main-title {
+    font-weight: 300;
+    color: #535C69;
+    font-size: 26px;
+    margin: 0 0 25px 0;
+}
+.ithive-prof-pclce-main-content {
+    background: #ffffff;
+    width: 100%;
+    height: fit-content;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.ithive-prof-pclce-sub-content {
+    background: #F5F7F9;
+    width: 100%;
+    height: fit-content;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.ithive-prof-pclce-standard-button {
+    border-radius: 4px;
+}
+/* endregion */
+/* region: Формы ввода */
+.ithive-prof-pclce-input-label {
+    font-size: 14px;
+    color: #A5ADB3;
+}
+.ithive-prof-pclce-input-box {
+    padding: 0 0 15px 0;
+}
+.ithive-prof-pclce-input-field {
+    margin-top: 5px;
+    width: 100%;
+}
+.ithive-prof-pclce-input-label-checkbox *, .ithive-prof-pclce-input-label-checkbox *::before, .ithive-prof-pclce-input-label-checkbox *::after {
+	box-sizing: content-box;
+}
+.ithive-prof-pclce-input-label-checkbox input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+.ithive-prof-pclce-input-label-checkbox span {
+	line-height: 1.54;
+	font-size: 1rem;
+	font-family: inherit;
+}
+.ithive-prof-pclce-input-label-checkbox {
+	display: table;
+	position: relative;
+	padding-left: 1.8rem;
+	cursor: pointer;
+	margin-bottom: .5rem;
+}
+.ithive-prof-pclce-input-label-checkbox input[type="checkbox"] ~ .ithive-prof-pclce-input-checkbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 1.25rem;
+	width: 1.25rem;
+	background: rgba(241, 245, 248, 1);
+	transition: background 250ms;
+	border: 1px solid rgba(184, 194, 204, 1);
+	border-radius: 3rem;
+}
+.ithive-prof-pclce-input-label-checkbox input[type="radio"] ~ .ithive-prof-pclce-input-checkbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 1.25rem;
+	width: 1.25rem;
+	background: rgba(241, 245, 248, 1);
+	transition: background 250ms;
+	border: 1px solid rgba(184, 194, 204, 1);
+	border-radius: 3rem;
+}
+.ithive-prof-pclce-input-label-checkbox input[type="checkbox"] ~ .ithive-prof-pclce-input-checkbox::after {
+	content: '';
+	position: absolute;
+	display: none;
+	left: .45rem;
+	top: .18rem;
+	width: .25rem;
+	height: .6rem;
+	border: solid rgba(255, 255, 255, 1);
+	border-width: 0 2px 2px 0;
+	transition: background 250ms;
+	transform: rotate(45deg);
+}
+.ithive-prof-pclce-input-label-checkbox input[type="radio"] ~ .ithive-prof-pclce-input-checkbox::after {
+	content: '';
+	position: absolute;
+	display: none;
+	left: .25rem;
+	top: .25rem;
+	width: .75rem;
+	height: .75rem;
+	border-radius: 2.0rem;
+	background: rgba(255, 255, 255, 1);
+	transition: background 250ms;
+}
+.ithive-prof-pclce-input-label-checkbox input:disabled ~ .ithive-prof-pclce-input-checkbox::after {
+	border-color: rgba(135, 149, 161, 1);
+}
+
+.ithive-prof-pclce-input-label-checkbox input:checked ~ .ithive-prof-pclce-input-checkbox::after {
+	display: block;
+}
+.ithive-prof-pclce-input-label-checkbox:hover input ~ .ithive-prof-pclce-input-checkbox,
+.ithive-prof-pclce-input-label-checkbox input:focus ~ .ithive-prof-pclce-input-checkbox {
+	background: rgb(231, 238, 243);
+}
+.ithive-prof-pclce-input-label-checkbox input:focus ~ .ithive-prof-pclce-input-checkbox {
+	box-shadow: 0 0 0 0px rgba(227, 103, 41, 1);
+}
+.ithive-prof-pclce-input-label-checkbox input:checked ~ .ithive-prof-pclce-input-checkbox {
+	background: rgba(227, 103, 41, 1);
+	border-color: rgba(135, 149, 161, 1);
+}
+.ithive-prof-pclce-input-label-checkbox input[type="checkbox"]:disabled ~ .ithive-prof-pclce-input-checkbox {
+	background: rgba(241, 245, 248, 1);
+	border-color: rgba(184, 194, 204, 1);
+	opacity: 0.6;
+	cursor: not-allowed;
+}
+.ithive-prof-pclce-input-label-checkbox input[type="radio"]:disabled ~ .ithive-prof-pclce-input-checkbox {
+	background: rgba(241, 245, 248, 1);
+	border-color: rgba(184, 194, 204, 1);
+	opacity: 0.6;
+	cursor: not-allowed;
+}
+.ithive-prof-pclce-input-label-checkbox input[type="radio"]:disabled ~ .ithive-prof-pclce-input-checkbox::after {
+	background: rgba(135, 149, 161, 1);
+}
+
+.ithive-prof-pclce-input-label-checkbox input:checked:focus ~ .ithive-prof-pclce-input-checkbox, .ithive-prof-pclce-input-label-checkbox:hover input:not([disabled]):checked ~ .ithive-prof-pclce-input-checkbox {
+	background: rgba(227, 103, 41, 1);
+	border-color: rgba(227, 103, 41, 1);
+}
+.ithive-prof-pclce-input-label-checkbox .ithive-prof-pclce-input-checkbox::before {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 3rem;
+	height: 3rem;
+	margin-left: -0.85rem;
+	margin-top: -0.85rem;
+	background: rgba(227, 103, 41, 1);
+	border-radius: 2rem;
+	opacity: .6;
+	z-index: 99999;
+	transform: scale(0);
+}
+@keyframes b-ripple {
+	0% {
+		transform: scale(0);
+	}
+
+	20% {
+		transform: scale(1);
+	}
+
+	100% {
+		opacity: 0;
+		transform: scale(1);
+  	}
+}
+@keyframes b-ripple-duplicate {
+	0% {
+		transform: scale(0);
+	}
+
+	30% {
+		transform: scale(1);
+	}
+
+	60% {
+		transform: scale(1);
+	}
+
+	100% {
+		opacity: 0;
+		transform: scale(1);
+  	}
+}
+.ithive-prof-pclce-input-label-checkbox input + .ithive-prof-pclce-input-checkbox::before {
+	animation: b-ripple 250ms ease-out;
+}
+.ithive-prof-pclce-input-label-checkbox input:checked + .ithive-prof-pclce-input-checkbox::before {
+	animation-name: b-ripple-duplicate;
+}
+.ithive-prof-pclce-input-label-checkbox .ithive-prof-pclce-input-checkbox::before {
+	visibility: hidden;
+}
+.ithive-prof-pclce-input-label-checkbox input:focus + .ithive-prof-pclce-input-checkbox::before {
+	visibility: visible;
+}
+.ithive-prof-pclce-input-label-checkbox:first-child .ithive-prof-pclce-input-checkbox::before {
+	visibility: hidden;
+}
+.ithive-prof-pclce-input-checkbox-text {
+    color: #535C69;
+    font-size: 16px;
+}
+/* endregion */
+/* region: Меню */
+.ithive-prof-pclce-sub-menu {
+	padding-top: 16px;
+	padding-left: 10px;
+	position: fixed;
+	background: #ffffff;
+	width: 100%;
+	height: 60px;
+	bottom: 0;
+}
+/* endregion */

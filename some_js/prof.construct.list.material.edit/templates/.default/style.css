@@ -1,0 +1,72 @@
+/* region: Общее */
+.ithive-prof-pclme {
+    padding: 25px;
+}
+.ithive-prof-pclme-invalid {
+    border: 5px dashed red !important;
+}
+.ithive-prof-pclme-row {
+    flex-wrap: wrap;
+    display: flex;
+}
+.ithive-prof-pclme-row-end {
+	justify-content: flex-end;
+	margin-bottom: 20px;
+}
+.ithive-prof-pclme-hr {
+	border: 0.01rem solid #E5E5E5;
+}
+.ithive-prof-pclme-main-title {
+    font-weight: 300;
+    color: #535C69;
+    font-size: 26px;
+    margin: 0 0 25px 0;
+}
+.ithive-prof-pclme-main-content {
+    background: #ffffff;
+    width: 100%;
+    height: fit-content;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.ithive-prof-pclme-sub-content {
+    background: #F5F7F9;
+    width: 100%;
+    height: fit-content;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.ithive-prof-pclme-sub-menu-item-end {
+    position: absolute;
+    margin: 16px 0 0 0;
+    right: 36px;
+}
+.ithive-prof-pclme-standard-button {
+    border-radius: 4px;
+}
+/* endregion */
+/* region: Формы ввода */
+.ithive-prof-pclme-input-label {
+    font-size: 14px;
+    color: #A5ADB3;
+}
+.ithive-prof-pclme-input-box {
+    padding: 0 0 15px 0;
+}
+.ithive-prof-pclme-input-field {
+    margin-top: 5px;
+    width: 100%;
+}
+/* endregion */
+/* region: Меню */
+.ithive-prof-pclme-sub-menu {
+	padding-top: 16px;
+	padding-left: 10px;
+	position: fixed;
+	background: #ffffff;
+	width: 100%;
+	height: 60px;
+	bottom: 0;
+    z-index: 99999;
+}
+/* endregion */
